@@ -38,9 +38,9 @@ GRANT SELECT, UPDATE ON test_roles.* TO 'limpieza';
 FLUSH PRIVILEGES;
 
 -- Crear usuarios con sus respectivas contraseñas
-CREATE USER 'Juan_Carlos'@'localhost' IDENTIFIED BY '020108juan';
-CREATE USER 'Carlos'@'localhost' IDENTIFIED BY '020108juan';
-CREATE USER 'Charly'@'localhost' IDENTIFIED BY '020108juan';
+CREATE USER 'Juan_Carlos'@'localhost' IDENTIFIED BY 'password';
+CREATE USER 'Carlos'@'localhost' IDENTIFIED BY 'password';
+CREATE USER 'Charly'@'localhost' IDENTIFIED BY 'password';
 
 -- Asignar roles a los usuarios creados
 GRANT 'gerente' TO 'Juan_Carlos'@'localhost';
